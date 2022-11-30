@@ -1,0 +1,41 @@
+#駝峰式命名法 (Camel Case)小寫，之後每一個單字的開頭為大寫
+蛇形命名法(Snake Case) 命名法 , 單字皆為小寫，單字以底線_分離
+
+==== 第1題 ==== 
+
+駝峰式命名法 (Camel Case) 
+設計出 學生相關的變數 寫 10個
+並且印出
+另外列印成一行
+
+==== 第2題 ==== 
+蛇形命名法(Snake Case) 命名法
+設計出 庫存商品 相關的變數 寫 10個
+並且印出
+另外列印成一行
+#
+
+studentName="王大明"
+studentNumber=8
+studentAge=13
+studentMath=60
+studentChines=70
+studentChemical=67
+studentSociety=58
+studentHistory=88
+studentPE=76
+studentOverallresult=studentPE+studentHistory+studentSociety+studentChemical+studentChines+studentMath
+print("學生姓名:",studentName,"學生號碼:",studentNumber,"學生年紀:",studentAge,"數學成績:",studentMath,"中文成績:",studentChines,
+      "化學成績:",studentChemical,"社會成績:",studentSociety,"體育成績:",studentPE,"總成績:",studentOverallresult)
+commodity_name="皮帶"
+commodity_material="牛皮"
+commodity_madein="台灣"
+commodity_importvolume=160
+commodity_importprice=100
+commodity_salesvolume=60
+commodity_salesprice=300
+commodity_quantity=100
+commodity_surplus=commodity_salesvolume*commodity_salesprice-commodity_importvolume*commodity_importprice
+print("商品名稱:",commodity_name,"商品材質:",commodity_material,"製造地點:",commodity_madein,"進貨數量:",commodity_importvolume,"進貨價格",commodity_importprice,
+      "售出數量:",commodity_salesvolume,"售出價格:",commodity_salesprice,"剩餘數量",commodity_quantity,"盈餘",commodity_surplus)
+exit()
