@@ -1,0 +1,86 @@
+"""
+練習題
+list1=[10,20,30,40]
+# 增加 2 筆資料在最後面  15,5
+
+
+
+"""
+list1=[10,20,30,40]
+y=input("請輸入數字(15):")
+y=int(y)
+x=input("請輸入數字(5):")
+x=int(x)
+list1.append(y)
+list1.append(x)
+
+print(list1)
+
+
+
+"""
+接著上一題
+# 由小到大排列 sort
+"""
+list1=[10,20,30,40]
+y=input("請輸入數字(15):")
+y=int(y)
+x=input("請輸入數字(5):")
+x=int(x)
+list1.append(y)
+list1.append(x)
+list1.sort()
+print(list1)
+
+"""
+接著上一題
+# 由大到小排列
+"""
+list1=[10,20,30,40]
+y=input("請輸入數字(15):")
+y=int(y)
+x=input("請輸入數字(5):")
+x=int(x)
+list1.append(y)
+list1.append(x)
+list1.sort(reverse=True)
+print(list1)
+
+
+"""
+
+接著上一題
+# 請在第3筆的地方，插入 17 的數字
+
+"""
+list1=[10,20,30,40]
+y=input("請輸入數字(15):")
+y=int(y)
+x=input("請輸入數字(5):")
+x=int(x)
+list1.append(y)
+list1.append(x)
+list1.insert(2,17)
+print(list1)
+
+"""
+接著上一題
+# 使用 while ，將每一個資料  乘上 2
+
+
+"""
+x=0
+list1=[10,20,30,40]
+
+list1.append(15)
+list1.append(5)
+list1.insert(2,17)
+while x<len(list1):
+        list1[x]=list1[x]*2
+        x=x+1
+print(list1)
+"""y=input("請輸入數字(15):")
+y=int(y)
+x=input("請輸入數字(5):")
+x=int(x)
+"""
