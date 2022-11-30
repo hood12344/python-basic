@@ -1,0 +1,29 @@
+"""
+
+只能用 while   依照以下樣版
+x=0                              #迴圈的   一開始的數字
+while x<3:                    # 迴圈  判斷式  結束的數字
+   # 要做的事情
+   print(x)                     # 執行動作
+   x=x+1                      # 變數 迴圈的   每次增加的數字
+
+print("End")                  # 結束
+"""
+
+x=1 #設定x的預設值
+
+
+while x<=2:                    # 迴圈  判斷式  結束的數字
+   # 要做的事情
+   strq="" #設定字串
+   long=input("請輸入數字:") #設定long變數
+   long=int(long)
+   y=0
+   while y<=long:
+      strq=strq+"A" #每次回圈字串+"A"
+
+      print(strq)                     # 執行動作
+      y=y+1
+   x=x+1                      # 變數 迴圈的   每次增加的數字
+
+print("End")                  # 結束
