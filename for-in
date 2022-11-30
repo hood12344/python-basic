@@ -1,0 +1,32 @@
+"""
+=========
+用 2個 for in… for in…    
+9x9 乘法表，　但沒有數字4
+例如不會出現
+4x1=4
+4x2=8
+1x4=1
+….
+只要判斷 x 和 y 不要有4 , 相乘後得答案就不用處理4
+
+"""
+list1 = [] #空矩陣
+list2 = [] #空矩陣
+C=0 #任意
+x=1#設定x變數 矩陣從1開始
+while x<=9: #何時結束
+
+        list1.append(x)#增加資料到矩陣的最後一筆
+        x=x+1
+x=1 #重置 從1開始
+while x<=9: #何時結束
+
+        list2.append(x)#增加資料到矩陣的最後一筆
+        x=x+1
+
+for A in list1:
+    for B in list2:
+        if A == 4 or B == 4:  # 只要有其中一個有數值為4 就空run
+            C = C
+        else: #其他則印出
+            print(str(A),"*",str(B),"=",str(A*B))
